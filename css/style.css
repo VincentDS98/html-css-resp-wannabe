@@ -155,6 +155,16 @@ TABLET
     .why-us .col-right {
         width: 100%;
     }
+    .col:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+    .steps, .why-us {
+        margin-bottom:0;
+    }
+    .why-us {
+        background-color: #222;
+        padding-top: 3rem 0;
+    }
     
 
 }
